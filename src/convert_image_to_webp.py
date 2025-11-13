@@ -83,8 +83,8 @@ def convert_images_to_webp(input_dir, output_dir):
 
 if __name__ == "__main__":
     # Define input and output directories
-    input_directory = "./samples"  # Path to the input directory
-    output_directory = "./output_images"  # Path to the output directory
+    input_directory = "../samples"  # Path to the input directory
+    output_directory = "../output_images"  # Path to the output directory
 
     # Call the conversion function with the defined directories
     convert_images_to_webp(input_directory, output_directory)
