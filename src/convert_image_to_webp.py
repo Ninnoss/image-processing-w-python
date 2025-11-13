@@ -14,7 +14,7 @@ def convert_images_to_webp(input_dir, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     # Supported image formats
-    supported_formats = {"jpg", "jpeg", "png", "bmp", "tiff", "gif"}
+    supported_formats = {"jpg", "jpeg", "png", "bmp", "tiff", "gif", 'webp'}
 
     # Initialize counters for summary
     total_files = 0
